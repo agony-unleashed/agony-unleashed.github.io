@@ -1,11 +1,13 @@
-# Jekyll & ZURB
+# agony-unleashed.com
 
-[![MIT License](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/razor-x/jekyll-and-zurb.svg)](https://gemnasium.com/razor-x/jekyll-and-zurb)
-[![Build Status](https://img.shields.io/travis/razor-x/jekyll-and-zurb/demo.svg)](https://travis-ci.org/razor-x/jekyll-and-zurb)
+[![All rights reserved](https://img.shields.io/badge/license-All_rights_reserved-red.svg)](./LICENSE.txt)
+[![Dependency Status](https://img.shields.io/gemnasium/agony-unleashed/agony-unleashed.com.svg)](https://gemnasium.com/agony-unleashed/agony-unleashed.com)
+[![Build Status](https://img.shields.io/travis/agony-unleashed/agony-unleashed.com/master.svg)](https://travis-ci.org/agony-unleashed/agony-unleashed.com)
 
-Source for your personal blog running on Jekyll and Foundation 5.
-Just clone and blog: create the `_posts` and `_drafts` folder.
+Source for [agony-unleashed.com](https://agony-unleashed.com/) running on Jekyll and Foundation.
+
+The rest of this README, except for the License,
+is just cloned from [Jekyll & ZURB](https://github.com/razor-x/jekyll-and-zurb).
 
 Demo at [io.evansosenko.com/jekyll-and-zurb/](https://io.evansosenko.com/jekyll-and-zurb/).
 
@@ -176,7 +178,10 @@ If you want to update Foundation, update the version number in `bower.json`.
 
 ## License
 
-This code is licensed under the MIT license.
+The code and content for this site is Copyright © 2015 Agony Unleashed.
+
+This site is built with [Jekyll & ZURB](https://github.com/razor-x/jekyll-and-zurb)
+which is licensed under the [MIT license](./MIT-LICENSE.txt).
 
 ## Warranty
 

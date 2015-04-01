@@ -6,4 +6,17 @@
     color: $color
 
 body > header h1
-  margin: 1rem
+  +grid-row
+  +grid-column
+
+.content
+  +grid-row
+
+.external-links
+  +grid-column
+
+  ul
+    +inline-list
+
+    a
+      font-size: 2rem

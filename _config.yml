@@ -118,6 +118,24 @@ picture:
         width: '768'
       source_default:
         width: '500'
+    banner:
+      source_retina:
+        media: '(retina)'
+        width: '3840'
+      source_xxlarge:
+        media: '(xxlarge)'
+        width: '2880'
+      source_xlarge:
+        media: '(xlarge)'
+        width: '1920'
+      source_large:
+        media: '(large)'
+        width: '1440'
+      source_medium:
+        media: '(medium)'
+        width: '1024'
+      source_default:
+        width: '640'
 
 # Uncomment below to configure social media.
 # social:

@@ -4,12 +4,6 @@ title: Agony Unleashed
 picture: agony-unleashed-white-bg.png
 ---
 
-{% if site.paginate %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+{% include external_links.html %}
 
 {% picture agony-unleashed.png %}
-
-{% include pagination.html %}

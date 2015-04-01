@@ -1,0 +1,20 @@
+---
+google:
+  name: Google+
+  url: https://plus.google.com/+AgonyUnleashedPVP?rel=author
+  icon: fi-social-google-plus
+
+facebook:
+  name: Facebook
+  url: https://www.facebook.com/AgonyUnleashed
+  icon: fi-social-facebook
+
+twitter:
+  name: Twitter
+  url: https://twitter.com/AgonyEmpire
+  icon: fi-social-twitter
+
+youtube:
+  name: YouTube
+  url: https://www.youtube.com/c/AgonyUnleashedPVP
+  icon: fi-social-youtube

@@ -10,14 +10,14 @@ body > header > div
   list-style: none
   font-size: $internal-link-font-size
 
+  @media #{$medium-up}
+    +inline-list
+
   a::before
     margin-right: 1rem
 
     @media #{$small-only}
       display: none
-
-  @media #{$medium-up}
-    +inline-list
 
 .external-links ul
   +inline-list

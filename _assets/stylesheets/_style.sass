@@ -1,6 +1,7 @@
 @each $icon, $color in $social-colors
   a.icon.fi-social-#{$icon}
     color: $color
+    +hover-glow(darken($color, 10%))
 
 header.banner
   > img
@@ -28,6 +29,9 @@ header.banner
 
     @media #{$large-up}
       font-size: $internal-link-font-size-large-up
+
+    a
+      +hover-glow($brown)
 
     a::before
       margin-right: 1rem

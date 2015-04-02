@@ -3,15 +3,18 @@ layout: default
 ---
 
 <header class="banner">
-  {% picture banner agony-unleashed-banner-large.jpg source_retina: agony-unleashed-banner-retina.jpg source_xxlarge: agony-unleashed-banner-xxlarge.jpg source_xlarge: agony-unleashed-banner-xlarge.jpg source_large: agony-unleashed-banner-large.jpg source_medium: agony-unleashed-banner-medium.jpg source_default: agony-unleashed-banner-small.jpg alt="Agony Unleashed" %}
+  <a href="{{ site.baseurl }}/">
+    {% picture banner agony-unleashed-banner-large.jpg source_retina: agony-unleashed-banner-retina.jpg source_xxlarge: agony-unleashed-banner-xxlarge.jpg source_xlarge: agony-unleashed-banner-xlarge.jpg source_large: agony-unleashed-banner-large.jpg source_medium: agony-unleashed-banner-medium.jpg source_default: agony-unleashed-banner-small.jpg alt="Agony Unleashed" %}
+  </a>
   <div>
     {% include internal_links.html %}
     {% include external_links.html %}
-    <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
   </div>
 </header>
 
-{{ content }}
+<div class="content">
+  {{ content }}
+</div>
 
 <footer>
   {% include social-buttons.html %}

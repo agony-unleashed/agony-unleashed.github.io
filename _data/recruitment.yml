@@ -29,7 +29,7 @@ squadrons:
 
   echo:
     open: true
-    region: Australian and Pacific
+    region: Australian &amp; Pacific
     timezone: [ '08:00', '16:00' ]
     recruiters:
       - name: Silivay
@@ -40,6 +40,6 @@ squadrons:
         user: 6694-fitch
 
 text:
-  recruitment: Recruitment
-  open: Open
-  closed: Closed
+  recruitment: recruitment
+  open: open
+  closed: closed

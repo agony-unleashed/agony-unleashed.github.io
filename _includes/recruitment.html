@@ -4,11 +4,11 @@
 <section class="recruitment recruitment-{{ recruitment.open }}">
   <h2 class="status">
     <a href="{{ site.baseurl }}/recruitment/" class="icon {{ recruitment.icon }}">
-      {{ text.recruitment }}
+      {{ text.recruitment | capitalize }}
       {% if recruitment.open %}
-        {{ text.open }}
+        {{ text.open | capitalize }}
       {% else %}
-        {{ text.closed }}
+        {{ text.closed | capitalize }}
       {% endif %}
     </a>
   </h2>

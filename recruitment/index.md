@@ -9,15 +9,15 @@ layout: banner
 
 <ul class="squadrons">
 {% for squadron in recruitment.squadrons %}
-  <li class="squadron-{{ squadron[1].open }} icon fi-torsos-all">
+  <li class="squadron-{{ squadron[1].open }} icon {{ recruitment.icon }}">
     {{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }}:
     <span class="status">
       {{ squadron[0] | capitalize }}
-      {{ text.recruitment }}
+      {{ text.recruitment | capitalize }}
     {% if squadron[1].open %}
-      {{ text.open }}
+      {{ text.open | capitalize }}
     {% else %}
-      {{ text.closed }}
+      {{ text.closed | capitalize }}
     {% endif %}
     </span>
   </li>

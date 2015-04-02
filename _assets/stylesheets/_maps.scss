@@ -9,3 +9,11 @@ $recruitment-status-colors: (
   true: green,
   false: red,
 );
+
+$banner-ratios: (
+  ($small-up, 1.616),
+  ($medium-up, 1.618),
+  ($large-up, 1.618),
+  ($xlarge-up, 2.591),
+  ($xxlarge-up, 2.40),
+);

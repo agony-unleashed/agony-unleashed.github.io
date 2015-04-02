@@ -3,6 +3,12 @@
     color: $color
 
 header.banner
+  img
+    @each $media, $ratio in $banner-ratios
+      @media #{$media}
+        min-width: 100vw
+        min-height: 100vw / $ratio
+
   > div
     +grid-row
     max-width: 100vw

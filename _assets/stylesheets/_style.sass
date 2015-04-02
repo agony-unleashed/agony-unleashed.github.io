@@ -76,3 +76,11 @@ header.banner
         +button($bg: $color)
         font-size: $recruitment-status-font-size
         +hover-glow($snow, a)
+
+.squadrons
+  margin-left: 0
+  list-style: none
+
+  @each $status, $color in $recruitment-status-colors
+    .squadron-#{$status} .status
+      color: darken($color, 20%)

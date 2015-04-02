@@ -1,0 +1,15 @@
+{% assign recruitment = site.data.recruitment %}
+{% assign text = site.data.recruitment.text %}
+
+<section class="recruitment">
+  <h2><a href="{{ recruitment.url }}">
+    {{ text.recruitment }}
+    <span class="recruitment-{{ recruitment.open }}">
+    {% if recruitment.open %}
+      {{ text.open }}
+    {% else %}
+      {{ text.closed }}
+    {% endif %}
+    </span>
+  </a></h2>
+</section>

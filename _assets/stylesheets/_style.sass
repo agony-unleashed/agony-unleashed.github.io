@@ -35,3 +35,11 @@ body > header > div
 
   @media #{$large-up}
     font-size: $external-link-font-size-large-up
+
+.recruitment
+  h2
+    font-size: $recruitment-status-font-size
+
+  @each $status, $color in $recruitment-status-colors
+    .recruitment-#{$status}
+      color: $color

@@ -1,15 +1,17 @@
 ---
 forums:
   name: Forums
-  url: https://forums.agony-unleashed.com/
+  url: https://forums.agony-unleashed.com
   icon: fi-comment
+  path:
+    user: "index.php?/user"
 
 killboard:
   name: Killboard
-  url: https://killboard.agony-unleashed.com/
+  url: https://killboard.agony-unleashed.com
   icon: fi-skull
 
 wiki:
   name: Wiki
-  url: https://wiki.agony-unleashed.com/
+  url: https://wiki.agony-unleashed.com
   icon: fi-info

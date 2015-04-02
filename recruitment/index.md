@@ -1,11 +1,11 @@
 ---
-layout: banner
+layout: banner-page
+title: Agony Unleashed Recruitment
+id: recruitment
 ---
 
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
-
-# {{ site.name }} Recruitment
 
 <ul class="squadrons">
 {% for squadron in recruitment.squadrons %}
@@ -13,11 +13,11 @@ layout: banner
     {{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }}:
     <span class="status">
       {{ squadron[0] | capitalize }}
-      {{ text.recruitment | capitalize }}
+      {{ text.recruitment }}
     {% if squadron[1].open %}
-      {{ text.open | capitalize }}
+      {{ text.open }}
     {% else %}
-      {{ text.closed | capitalize }}
+      {{ text.closed }}
     {% endif %}
     </span>
   </li>

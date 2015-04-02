@@ -1,6 +1,7 @@
 ---
 open: true
 icon: fi-torsos-all
+apply_icon: fi-target-two
 
 squadrons:
   alpha:
@@ -43,3 +44,4 @@ text:
   recruitment: recruitment
   open: open
   closed: closed
+  apply: joining agony

@@ -3,6 +3,10 @@
     color: $color
     +hover-glow(darken($color, 10%))
 
+.icon
+  &::before
+    margin-right: 1rem
+
 header.banner
   > img
     @each $media, $ratio in $banner-ratios
@@ -33,9 +37,6 @@ header.banner
     a
       +hover-glow($brown)
 
-    a::before
-      margin-right: 1rem
-
   .external-links ul
     +inline-list
     font-size: $external-link-font-size
@@ -52,6 +53,10 @@ header.banner
 
     @media #{$large-up}
       font-size: $external-link-font-size-large-up
+
+    .icon
+      &::before
+        margin-right: 0
 
 .content
   +grid-row
@@ -84,3 +89,9 @@ header.banner
   @each $status, $color in $recruitment-status-colors
     .squadron-#{$status} .status
       color: darken($color, 20%)
+
+#recruitment
+  .apply
+    +button
+    text-transform: capitalize
+    font-size: $recruitment-status-font-size

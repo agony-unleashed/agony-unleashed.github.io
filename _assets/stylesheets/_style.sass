@@ -3,7 +3,7 @@
     color: $color
 
 header.banner
-  img
+  > img
     @each $media, $ratio in $banner-ratios
       @media #{$media}
         min-width: 100vw
@@ -13,6 +13,9 @@ header.banner
     +grid-row
     max-width: 100vw
     padding-left: 1rem
+
+    h1
+      clear: both
 
 .internal-links ul
   list-style: none

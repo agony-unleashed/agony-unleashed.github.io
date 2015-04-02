@@ -2,18 +2,15 @@
   a.icon.fi-social-#{$icon}
     color: $color
 
-body > header h1
-  +grid-row
-  +grid-column
-
-.content
+body > header > div
   +grid-row
 
 .external-links, .internal-links
-  +grid-column
-
   ul
     +inline-list
 
-    a
-      font-size: 2rem
+.internal-links ul a
+  font-size: 2rem
+
+.external-links ul a
+  font-size: 4rem

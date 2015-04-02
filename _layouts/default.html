@@ -14,8 +14,12 @@
 
 <body>
   <header>
-  {% picture banner agony-unleashed-banner-large.jpg source_retina: agony-unleashed-banner-retina.jpg source_xxlarge: agony-unleashed-banner-xxlarge.jpg source_xlarge: agony-unleashed-banner-xlarge.jpg source_large: agony-unleashed-banner-large.jpg source_medium: agony-unleashed-banner-medium.jpg source_default: agony-unleashed-banner-small.jpg alt="Agony Unleashed" %}
-    <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    {% picture banner agony-unleashed-banner-large.jpg source_retina: agony-unleashed-banner-retina.jpg source_xxlarge: agony-unleashed-banner-xxlarge.jpg source_xlarge: agony-unleashed-banner-xlarge.jpg source_large: agony-unleashed-banner-large.jpg source_medium: agony-unleashed-banner-medium.jpg source_default: agony-unleashed-banner-small.jpg alt="Agony Unleashed" %}
+    <div>
+      <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+      {% include internal_links.html %}
+      {% include external_links.html %}
+    </div>
   </header>
 
   {{ content }}

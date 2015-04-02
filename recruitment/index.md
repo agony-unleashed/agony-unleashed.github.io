@@ -7,6 +7,14 @@ id: recruitment
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
 
+{% capture apply_button %}
+  <a class="apply icon {{ recruitment.apply_icon }}">{{ text.apply }}</a>
+{% endcapture %}
+
+{% capture faq_button %}
+  <a class="faq icon {{ recruitment.faq_icon }}">{{ text.faq }}</a>
+{% endcapture %}
+
 <ul class="squadrons">
 {% for squadron in recruitment.squadrons %}
   <li class="squadron-{{ squadron[1].open }} icon {{ recruitment.icon }}">
@@ -34,7 +42,10 @@ For questions regarding recruitment you can post on the forum,
 inquire in our in-game public channel `Agony Public`,
 or contact one of our recruiters.
 
-<a class="apply icon {{ recruitment.apply_icon }}">{{ text.apply }}</a>
+<div>
+  {{ apply_button }}
+  {{ faq_button }}
+</div>
 
 ## About Agony
 
@@ -122,3 +133,8 @@ Another option is to join one of our PVP-U classes or public roams.
 This allows you to get a feel for the way Agony operates.
 Join the `Agony PVP Uni` mailing list for notifications of these events,
 or check out our forums.
+
+<div>
+  {{ apply_button }}
+  {{ faq_button }}
+</div>

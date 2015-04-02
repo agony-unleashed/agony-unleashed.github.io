@@ -2,6 +2,7 @@
 open: true
 icon: fi-torsos-all
 apply_icon: fi-target-two
+faq_icon: fi-info
 
 squadrons:
   alpha:
@@ -44,4 +45,5 @@ text:
   recruitment: recruitment
   open: open
   closed: closed
-  apply: joining agony
+  apply: apply now
+  faq: applicant FAQ

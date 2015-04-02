@@ -79,8 +79,8 @@ header.banner
     &.recruitment-#{$status}
       .status
         +button($bg: $color)
-        font-size: $recruitment-status-font-size
         +hover-glow($snow, a)
+        font-size: $recruitment-status-font-size
 
 .squadrons
   margin-left: 0
@@ -91,7 +91,14 @@ header.banner
       color: darken($color, 20%)
 
 #recruitment
-  .apply
-    +button
+  .apply, .faq
+    +button($bg: $jet)
+    +hover-glow($jet, a)
     text-transform: capitalize
     font-size: $recruitment-status-font-size
+
+    &:hover
+      background-color: $snow
+
+    @media #{$medium-up}
+      display: inline-block

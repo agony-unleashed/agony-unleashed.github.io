@@ -4,16 +4,23 @@
 
 body > header > div
   +grid-row
+  padding-left: 1rem
 
-.external-links, .internal-links
-  ul
-    +inline-list
-
-.internal-links ul a
+.internal-links ul
+  list-style: none
   font-size: $internal-link-font-size
 
-  &:before
+  a::before
     margin-right: 1rem
 
-.external-links ul a
-  font-size: $external-link-font-size
+    @media #{$small-only}
+      display: none
+
+  @media #{$medium-up}
+    +inline-list
+
+.external-links ul
+  +inline-list
+
+  a
+    font-size: $external-link-font-size

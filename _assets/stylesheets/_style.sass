@@ -7,29 +7,31 @@ body > header > div
   max-width: 100vw
   padding-left: 1rem
 
-  @media #{$large-up}
-    h1
-      +grid-column(5)
-
-    .internal-links
-      +grid-column(7)
-      padding-top: 0.5rem
-
 .internal-links ul
   list-style: none
   font-size: $internal-link-font-size
 
   @media #{$medium-up}
     +inline-list
+    +grid-column(8)
+    font-size: $internal-link-font-size-medium-up
+
+  @media #{$large-up}
+    font-size: $internal-link-font-size-large-up
 
   a::before
     margin-right: 1rem
 
-    @media #{$small-only}
-      display: none
-
 .external-links ul
   +inline-list
+  font-size: $external-link-font-size
 
-  a
-    font-size: $external-link-font-size
+  @media #{$medium-up}
+    +grid-column(4)
+    font-size: $external-link-font-size-medium-up
+
+    a::before
+      vertical-align: top
+
+  @media #{$large-up}
+    font-size: $external-link-font-size-large-up

@@ -7,7 +7,7 @@ forums:
 killboard:
   name: Killboard
   url: https://killboard.agony-unleashed.com/
-  icon: fi-target-two
+  icon: fi-skull
 
 wiki:
   name: Wiki

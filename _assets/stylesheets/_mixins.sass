@@ -1,5 +1,13 @@
-=hover-glow($color)
-  transition: all 0.25s ease-in
+=hover-glow($color, $attr: false)
+  $transition: all 0.25s ease-in
+
+  transition: $transition
 
   &:hover
     color: $color
+
+    @if $attr
+      #{$attr}
+        transition: $transition
+        color: $color
+

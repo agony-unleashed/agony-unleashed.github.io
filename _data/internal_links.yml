@@ -2,11 +2,14 @@
 forums:
   name: Forums
   url: https://forums.agony-unleashed.com/
+  icon: fi-comment
 
 killboard:
   name: Killboard
   url: https://killboard.agony-unleashed.com/
+  icon: fi-target-two
 
 wiki:
   name: Wiki
   url: https://wiki.agony-unleashed.com/
+  icon: fi-info

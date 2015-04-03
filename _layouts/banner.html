@@ -12,9 +12,15 @@ layout: default
   </div>
 </header>
 
-<div class="content">
-  {{ content }}
-</div>
+<article class="content" {% if page.id %} id="{{ page.id }}"{% endif %}>
+  <header>
+    <h1>{{ page.heading }}</h1>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+</article>
 
 <footer>
   {% include social-buttons.html %}

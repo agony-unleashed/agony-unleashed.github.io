@@ -1,6 +1,7 @@
 ---
-layout: banner-page
-title: Agony Unleashed Recruitment
+layout: banner
+title: Recruitment
+heading: Recruitment
 id: recruitment
 ---
 

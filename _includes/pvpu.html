@@ -1,0 +1,18 @@
+{% assign pvpu = site.data.pvpu %}
+{% assign text = site.data.pvpu.text %}
+
+<section class="pvpu">
+  <h2>{{ text.header }}</h2>
+  <h3>{{ pvpu.course.name }}
+  <time datetime="{{ pvpu.course.date | date: "%Y-%m-%d %H:%M%z" }}">
+    {{ pvpu.course.date | date: "%Y %b %e" }}
+    <span class="fi-at-sign"></span>
+    {{ pvpu.course.date | date: "%H:%M %Z" }}
+  </time>
+  </h3>
+
+  <a class="icon {{ pvpu.icon }}"
+     href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.topic }}{{ pvpu.course.topic }}">
+    {{ text.link }}
+  </a>
+</section>

@@ -1,2 +1,13 @@
 ---
-form: 1F7w9oIUPsdDg7Vb6TWEm_cuqugxILtybd6uB3nAq_Bk
+icon: fi-target
+
+course:
+  display: true
+  name: PvP-Basic
+  date: 2015-04-04 07:30:00 UTC
+  topic: 24440-pvp-basic-4-april-0730
+  form: 1F7w9oIUPsdDg7Vb6TWEm_cuqugxILtybd6uB3nAq_Bk
+
+text:
+  header: upcoming PvP-U course
+  link: info &amp; signup

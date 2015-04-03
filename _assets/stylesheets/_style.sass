@@ -94,7 +94,19 @@ header.banner
         +button($bg: $color)
         +hover-glow($snow, a)
         color: $jet
-        font-size: $recruitment-status-font-size
+        font-size: $status-button-font-size
+
+.pvpu
+  h2
+    text-transform: capitalize
+
+  a
+    +button-hover-glow
+    font-size: $status-button-font-size
+    text-transform: capitalize
+
+  time
+    display: block
 
 .squadrons
   margin-left: 0
@@ -110,13 +122,9 @@ header.banner
 
 #recruitment
   .apply, .faq
-    +button($bg: $jet)
-    +hover-glow($jet, a)
+    +button-hover-glow
     text-transform: capitalize
-    font-size: $recruitment-status-font-size
-
-    &:hover
-      background-color: $snow
+    font-size: $status-button-font-size
 
     @media #{$medium-up}
       display: inline-block

@@ -9,5 +9,9 @@ banner: agony-unleashed-banner
 {% include external_links.html %}
 <p>{{ site.data.text.about }}</p>
 {% include recruitment.html %}
+
+{% if site.data.pvpu.course.display %}
+  {% include pvpu.html %}
+{% endif %}
+
 {% include npsi.html %}
-{% include pvpu.html %}

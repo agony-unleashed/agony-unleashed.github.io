@@ -100,6 +100,8 @@ header.banner
         font-size: $status-button-font-size
 
 .pvpu, .npsi
+  margin-top: 2rem
+
   h2, h3
     text-transform: capitalize
 
@@ -110,6 +112,9 @@ header.banner
 
   time
     display: block
+
+  @media #{$large-up}
+    +grid-column(6)
 
 .squadrons
   margin-left: 0

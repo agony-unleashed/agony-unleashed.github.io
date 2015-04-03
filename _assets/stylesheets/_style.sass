@@ -17,9 +17,10 @@ header.banner
   > div
     +grid-row
     max-width: 100vw
-    padding-left: 1rem
+    margin-left: 1rem
 
   .internal-links ul
+    margin-left: 0
     list-style: none
     font-size: $internal-link-font-size
 
@@ -60,9 +61,10 @@ header.banner
 
 .content
   +grid-row
+  margin-left: 1rem
 
-  @media #{$small-only}, #{$medium-only}
-    padding: 1rem
+  @media #{$medium-up}
+    margin-left: 2rem
 
   p
     max-width: 40em

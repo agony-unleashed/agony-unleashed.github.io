@@ -58,7 +58,7 @@ or contact one of our recruiters.
   <dt>{{ squadron[0] | capitalize }} ({{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }})</dt>
   <dd>
     {% for recruiter in squadron[1].recruiters %}
-      <a href="{{ site.data.internal_links.forums.url }}/{{ site.data.internal_links.forums.paths.user }}{{ recruiter.user }}">
+      <a href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.user }}{{ recruiter.user }}">
         {{ recruiter.name }}</a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
   </dd>

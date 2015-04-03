@@ -21,7 +21,7 @@ id: recruitment
 <dl class="squadrons">
 {% for squadron in recruitment.squadrons %}
   <dt class="icon {{ recruitment.icons.recruitment }}">
-    {{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }}
+    {{ squadron[1].region }} {{ squadron[1].timezone | join: '-' }}
   </dt>
   <dd class="squadron-{{ squadron[1].open }} status icon
     {% if squadron[1].open %}{{ recruitment.icons.open }}{% else %}{{ recruitment.icons.closed }}{% endif %}">

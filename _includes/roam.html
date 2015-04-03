@@ -1,0 +1,18 @@
+{% assign info = include.info %}
+{% assign text = include.text %}
+
+<section class="{{ include.class }}">
+  <h2>{{ text.header }}</h2>
+  <h3>{{ info.name }}
+  <time datetime="{{ info.date | date: "%Y-%m-%d %H:%M%z" }}">
+    {{ info.date | date: "%Y %b %e" }}
+    <span class="fi-at-sign"></span>
+    {{ info.date | date: "%H:%M %Z" }}
+  </time>
+  </h3>
+
+  <a class="icon {{ info.icon }}"
+     href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.topic }}{{ info.topic }}">
+    {{ text.link }}
+  </a>
+</section>

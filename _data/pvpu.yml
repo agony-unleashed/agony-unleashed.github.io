@@ -1,8 +1,7 @@
 ---
-icon: fi-target
-
 course:
   display: true
+  icon: fi-target
   name: PvP-Basic
   date: 2015-04-04 07:30:00 UTC
   topic: 24440-pvp-basic-4-april-0730

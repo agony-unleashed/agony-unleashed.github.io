@@ -11,9 +11,9 @@ banner: agony-unleashed-banner
 {% include recruitment.html %}
 
 {% if site.data.pvpu.course.display %}
-  {% include pvpu.html %}
+  {% include roam.html class="pvpu" info=site.data.pvpu.course text=site.data.pvpu.text %}
 {% endif %}
 
 {% if site.data.npsi.roam.display %}
-  {% include npsi.html %}
+  {% include roam.html class="npsi" info=site.data.npsi.roam text=site.data.npsi.text %}
 {% endif %}

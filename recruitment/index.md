@@ -8,11 +8,13 @@ id: recruitment
 {% assign text = site.data.recruitment.text %}
 
 {% capture apply_button %}
-  <a class="apply icon {{ recruitment.apply_icon }}">{{ text.apply }}</a>
+  <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
+    class="apply icon {{ recruitment.apply_icon }}">{{ text.apply }}</a>
 {% endcapture %}
 
 {% capture faq_button %}
-  <a class="faq icon {{ recruitment.faq_icon }}">{{ text.faq }}</a>
+  <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
+     class="faq icon {{ recruitment.faq_icon }}">{{ text.faq }}</a>
 {% endcapture %}
 
 <ul class="squadrons">

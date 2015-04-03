@@ -4,6 +4,9 @@ icon: fi-torsos-all
 apply_icon: fi-target-two
 faq_icon: fi-info
 
+apply_page: Agony_0.0_Applicant_Questionnaire
+faq_page: Joining_Agony
+
 squadrons:
   alpha:
     open: true

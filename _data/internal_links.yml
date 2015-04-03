@@ -3,8 +3,8 @@ forums:
   name: Forums
   url: https://forums.agony-unleashed.com
   icon: fi-comment
-  path:
-    user: "index.php?/user"
+  paths:
+    user: "index.php?/user/"
 
 killboard:
   name: Killboard
@@ -15,3 +15,5 @@ wiki:
   name: Wiki
   url: https://wiki.agony-unleashed.com
   icon: fi-info
+  paths:
+    page: "index.php?title="

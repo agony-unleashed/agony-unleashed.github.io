@@ -77,9 +77,10 @@ header.banner
 .recruitment
   @each $status, $color in $recruitment-status-colors
     &.recruitment-#{$status}
-      .status
+      .status a
         +button($bg: $color)
         +hover-glow($snow, a)
+        color: $jet
         font-size: $recruitment-status-font-size
 
 .squadrons

@@ -1,3 +1,6 @@
+html
+  overflow-y: scroll
+
 @each $icon, $color in $social-colors
   a.icon.fi-social-#{$icon}
     color: $color
@@ -11,8 +14,8 @@ header.banner
   img
     @each $media, $ratio in $banner-ratios
       @media #{$media}
-        min-width: 100vw
-        min-height: 100vw / $ratio
+        min-width: 100%
+        min-height: 100% / $ratio
 
   > div
     +grid-row

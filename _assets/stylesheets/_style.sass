@@ -24,6 +24,9 @@ header.banner
     list-style: none
     font-size: $internal-link-font-size
 
+    @media #{$small-only}
+      margin-top: 1rem
+
     @media #{$screen} and (min-width: 33.75em) and (max-width: #{upper-bound($small-range)})
       +inline-list
       +grid-column(12)

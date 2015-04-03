@@ -1,8 +1,11 @@
 ---
 open: true
-icon: fi-torsos-all
-apply_icon: fi-target-two
-faq_icon: fi-info
+icons:
+  recruitment: fi-torsos-all
+  apply: fi-target-two
+  faq: fi-info
+  open: fi-check
+  closed: fi-x
 
 apply_page: Agony_0.0_Applicant_Questionnaire
 faq_page: Joining_Agony

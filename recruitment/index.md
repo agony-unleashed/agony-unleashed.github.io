@@ -9,30 +9,31 @@ id: recruitment
 
 {% capture apply_button %}
   <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
-    class="apply icon {{ recruitment.apply_icon }}">{{ text.apply }}</a>
+    class="apply icon {{ recruitment.icons.apply }}">{{ text.apply }}</a>
 {% endcapture %}
 
 {% capture faq_button %}
   <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
-     class="faq icon {{ recruitment.faq_icon }}">{{ text.faq }}</a>
+     class="faq icon {{ recruitment.icons.faq }}">{{ text.faq }}</a>
 {% endcapture %}
 
-<ul class="squadrons">
+<dl class="squadrons">
 {% for squadron in recruitment.squadrons %}
-  <li class="squadron-{{ squadron[1].open }} icon {{ recruitment.icon }}">
-    {{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }}:
-    <span class="status">
-      {{ squadron[0] | capitalize }}
-      {{ text.recruitment }}
-    {% if squadron[1].open %}
-      {{ text.open }}
-    {% else %}
-      {{ text.closed }}
-    {% endif %}
-    </span>
-  </li>
+  <dt class="icon {{ recruitment.icons.recruitment }}">
+    {{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }}
+  </dt>
+  <dd class="squadron-{{ squadron[1].open }} status icon
+    {% if squadron[1].open %}{{ recruitment.icons.open }}{% else %}{{ recruitment.icons.closed }}{% endif %}">
+    {{ squadron[0] | capitalize }}
+    {{ text.recruitment }}
+  {% if squadron[1].open %}
+    {{ text.open }}
+  {% else %}
+    {{ text.closed }}
+  {% endif %}
+  </dd>
 {% endfor %}
-</ul>
+</dl>
 
 Please note that Agony is not a training corp,
 and you should not be applying to Agony to "learn to PVP".

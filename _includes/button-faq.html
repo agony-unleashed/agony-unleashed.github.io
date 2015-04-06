@@ -1,0 +1,5 @@
+{% assign recruitment = site.data.recruitment %}
+{% assign text = site.data.recruitment.text %}
+
+<a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
+   class="faq icon {{ recruitment.icons.faq }}">{{ text.faq }}</a>

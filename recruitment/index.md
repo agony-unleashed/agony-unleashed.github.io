@@ -8,33 +8,7 @@ id: recruitment
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
 
-{% capture apply_button %}
-  <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
-    class="apply icon {{ recruitment.icons.apply }}">{{ text.apply }}</a>
-{% endcapture %}
-
-{% capture faq_button %}
-  <a href="{{ site.data.internal_links.wiki.url }}/{{ site.data.internal_links.wiki.paths.page }}{{ recruitment.faq_page }}"
-     class="faq icon {{ recruitment.icons.faq }}">{{ text.faq }}</a>
-{% endcapture %}
-
-<dl class="squadrons">
-{% for squadron in recruitment.squadrons %}
-  <dt class="icon {{ recruitment.icons.recruitment }}">
-    {{ squadron[1].region }} {{ squadron[1].timezone | join: '-' }}
-  </dt>
-  <dd class="squadron-{{ squadron[1].open }} status icon
-    {% if squadron[1].open %}{{ recruitment.icons.open }}{% else %}{{ recruitment.icons.closed }}{% endif %}">
-    {{ squadron[0] | capitalize }}
-    {{ text.recruitment }}
-  {% if squadron[1].open %}
-    {{ text.open }}
-  {% else %}
-    {{ text.closed }}
-  {% endif %}
-  </dd>
-{% endfor %}
-</dl>
+{% include squadrons.html %}
 
 Please note that Agony is not a training corp,
 and you should not be applying to Agony to "learn to PVP".
@@ -43,8 +17,8 @@ these are available to anyone, and you do **not** have
 to be a member of Agony to attend them.
 
 <div>
-  {{ apply_button }}
-  {{ faq_button }}
+  {% include button-apply.html %}
+  {% include button-faq.html %}
 </div>
 
 For questions regarding recruitment you can post on the forum,
@@ -53,17 +27,7 @@ or contact one of our recruiters.
 
 ### Recruiters
 
-<dl class="recruiters">
-{% for squadron in recruitment.squadrons %}
-  <dt>{{ squadron[0] | capitalize }} ({{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }})</dt>
-  <dd>
-    {% for recruiter in squadron[1].recruiters %}
-      <a href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.user }}{{ recruiter.user }}">
-        {{ recruiter.name }}</a>{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-  </dd>
-{% endfor %}
-</dl>
+{% include recruiters.html %}
 
 ## About Agony
 
@@ -157,6 +121,6 @@ Join the `Agony PVP Uni` mailing list for notifications of these events,
 or check out our forums.
 
 <div>
-  {{ apply_button }}
-  {{ faq_button }}
+  {% include button-apply.html %}
+  {% include button-faq.html %}
 </div>

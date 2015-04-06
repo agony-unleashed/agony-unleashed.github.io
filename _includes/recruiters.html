@@ -1,0 +1,15 @@
+{% assign recruitment = site.data.recruitment %}
+{% assign text = site.data.recruitment.text %}
+
+<dl class="recruiters">
+{% for squadron in recruitment.squadrons %}
+  <dt>{{ squadron[0] | capitalize }} ({{ squadron[1].region }} {{ squadron[1].timezone | join:'-' }})</dt>
+  <dd>
+    {% for recruiter in squadron[1].recruiters %}
+      <a href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.user }}{{ recruiter.user }}">
+        {{ recruiter.name }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </dd>
+{% endfor %}
+</dl>
+

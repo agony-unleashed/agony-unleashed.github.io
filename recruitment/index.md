@@ -1,7 +1,7 @@
 ---
 layout: banner
 title: Recruitment
-heading: recruitment
+heading: Recruitment
 id: recruitment
 ---
 

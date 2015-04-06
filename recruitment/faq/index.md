@@ -211,7 +211,7 @@ within a short amount of time it will get moved to the internal recruitment subf
 
 #### Interview
 
-Within 5 days, you should receive a private messages through the Agony forums,
+Within five days, you should receive a private messages through the Agony forums,
 either inviting your for an interview, or rejecting your application.
 
 Interviews take place on Agony's TeamSpeak channel, and last about 20-30 minutes.

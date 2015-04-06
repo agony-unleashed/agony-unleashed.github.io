@@ -10,6 +10,15 @@ html
   &::before
     margin-right: 1rem
 
+.thumb
+  +thumb
+  margin-top: 1rem
+  margin-bottom: 1rem
+
+  @media #{$medium-up}
+    float: left
+    margin-right: 1rem
+
 header.banner
   img
     @each $media, $ratio in $banner-ratios

@@ -67,6 +67,8 @@ or contact one of our recruiters.
 
 ## About Agony
 
+{% picture thumb hyena.png class="thumb" %}
+
 Agony Unleashed is a Nullsec PVP corp, specializing in small gang combat.
 
 Agony was formed in 2006 and is a single-corp alliance with a strong cultural identity

@@ -118,6 +118,24 @@ picture:
         width: '768'
       source_default:
         width: '500'
+    thumb:
+      source_retina:
+        media: '(retina)'
+        width: '1000'
+      source_xxlarge:
+        media: '(xxlarge)'
+        width: '500'
+      source_xlarge:
+        media: '(xlarge)'
+        width: '500'
+      source_large:
+        media: '(large)'
+        width: '500'
+      source_medium:
+        media: '(medium)'
+        width: '640'
+      source_default:
+        width: '640'
     banner:
       source_retina:
         media: '(retina)'

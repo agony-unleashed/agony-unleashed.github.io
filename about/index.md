@@ -43,9 +43,9 @@ and generally try to be pretty damn good at what we do.
 We expect our members to always be improving.
 We favor tactics and intelligence over numbers and brute force.
 
-### How can my corp apply to join the Agony Empire alliance?
+### How can my corporation apply to join the Agony Empire alliance?
 
-Agony is a one corp alliance.
+Agony is a one corporation alliance.
 If you're interested in merging into Agony, please contact Gizznitt.
 
 ### What is Agony's position on blues?

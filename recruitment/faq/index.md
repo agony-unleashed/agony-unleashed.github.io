@@ -186,14 +186,15 @@ subdivisions within the corporation which correspond to their prime gaming time.
 Each squadron decides separately when to open and close its recruitment.
 Each squadron also has its own group of recruiters.
 
-#### Recruitment Status
+<div id="squadrons">
+  <h4>Recruitment Status</h4>
+  {% include squadrons.html %}
+</div>
 
-{% include squadrons.html %}
-
-#### Recruiters
-
-{% include recruiters.html %}
-
+<div id="recruiters">
+  <h4>Recruiters</h4>
+  {% include recruiters.html %}
+</div>
 
 ### Submitting an Application
 

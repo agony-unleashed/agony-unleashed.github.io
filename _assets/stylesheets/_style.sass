@@ -103,11 +103,15 @@ header.banner
 .recruitment
   @each $status, $color in $recruitment-status-colors
     &.recruitment-#{$status}
-      .status a
-        +button($bg: $color)
-        +hover-glow($snow, a)
-        color: $jet
-        font-size: $status-button-font-size
+      +button($bg: $color)
+      +hover-glow($snow, a)
+      color: $jet
+      font-size: $status-button-font-size
+
+.about
+  +button($bg: $blue)
+  text-transform: capitalize
+  font-size: $status-button-font-size
 
 .pvpu, .npsi
   margin-top: 2rem

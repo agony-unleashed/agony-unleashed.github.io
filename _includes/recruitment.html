@@ -1,15 +1,12 @@
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
 
-<section class="recruitment recruitment-{{ recruitment.open }}">
-  <h2 class="status">
-    <a href="{{ site.baseurl }}/recruitment/" class="icon {{ recruitment.icons.recruitment }}">
-      {{ text.recruitment | capitalize }}
-      {% if recruitment.open %}
-        {{ text.open | capitalize }}
-      {% else %}
-        {{ text.closed | capitalize }}
-      {% endif %}
-    </a>
-  </h2>
-</section>
+<a href="{{ site.baseurl }}/recruitment/"
+   class="recruitment recruitment-{{ recruitment.open }} icon {{ recruitment.icons.recruitment }}">
+  {{ text.recruitment | capitalize }}
+  {% if recruitment.open %}
+    {{ text.open | capitalize }}
+  {% else %}
+    {{ text.closed | capitalize }}
+  {% endif %}
+</a>

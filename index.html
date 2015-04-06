@@ -7,7 +7,13 @@ banner: agony-unleashed-banner
 ---
 
 {% include external_links.html %}
-<p>{{ site.data.text.about }}</p>
+
+<p>{{ site.data.about.text.about }}</p>
+
+<a class="about icon {{ site.data.about.icon }}"
+   href="{{ site.baseurl }}/about/">
+  {{ site.data.about.text.link }}
+</a>
 {% include recruitment.html %}
 
 {% if site.data.pvpu.course.display %}

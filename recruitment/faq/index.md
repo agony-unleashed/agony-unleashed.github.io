@@ -198,10 +198,10 @@ Each squadron also has its own group of recruiters.
 
 ### Submitting an Application
 
-{% include button-apply.html %}
-
 Once you have posted your application in Public Chat,
 within a short amount of time it will get moved to the internal recruitment subforum.
+
+{% include button-apply.html %}
 
 #### Interview
 

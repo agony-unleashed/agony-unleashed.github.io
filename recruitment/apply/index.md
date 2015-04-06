@@ -8,6 +8,10 @@ id: recruitment-apply
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
 
+<div>
+  {% include recruitment.html %}
+</div>
+
 **Our goal for Agony is to be a highly respected PVP alliance.
 We do that through the love of a good fight; thinking outside the box;
 fighting superior forces with superior tactics;
@@ -17,6 +21,11 @@ Before you get started, it's worth noting that being able to follow instructions
 is taken into consideration by the membership of Agony when reading your questionnaire.
 It's worth taking that extra moment to pay attention to detail and get your application right.
 **Not following instructions can lead to your application being rejected.**
+
+<div>
+  {% include button-about.html %}
+  {% include button-faq.html %}
+</div>
 
 ## Instructions
 

@@ -118,8 +118,9 @@ We do not currently hold space, nor do we plan to in the near future.
 
 ### Can anyone join Agony? Is it by invite only? By skill points?
 
-{% capture recruitment %}{% include recruitment.html %}{% endcapture %}
-<div>{{ recruitment | strip_newlines }}<div>
+<div>
+  {% include recruitment.html %}
+</div>
 
 {% assign wiki=site.data.internal_links.wiki %}
 

@@ -25,7 +25,7 @@ header.banner
     @each $media, $ratio in $banner-ratios
       @media #{$media}
         min-width: 100%
-        min-height: 100% / $ratio
+        min-height: 100vw / $ratio
 
   > div
     +grid-row

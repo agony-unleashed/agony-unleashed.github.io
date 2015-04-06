@@ -53,16 +53,11 @@ There are no mandatory ops to attend but there's almost always something going o
 
 ### The Agony Philosophy
 
-- PvP is fun, enjoy it and don't be a jerk.
-- PvP is a challenge, pay attention and fly smart.
-- Honour your word: you stand to gain more by keeping it than you do by breaking it.
-- There are no enemies, only opponents.
-- If you're going to do something, do it well.
-- Knowledge should be shared, not hoarded:
-  smarter opponents will force you to up your game.
-- SP and ISK don't make you a better PVPer: they make you a better target.
-- Winning through superior tactics is more satisfying
-  than winning through superior numbers.
+<ul>
+{% for item in site.data.about.philosophy %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>
 
 ### What does Agony offer?
 

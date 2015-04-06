@@ -10,10 +10,7 @@ banner: agony-unleashed-banner
 
 <p>{{ site.data.about.text.about }}</p>
 
-<a class="about icon {{ site.data.about.icon }}"
-   href="{{ site.baseurl }}/about/">
-  {{ site.data.about.text.link }}
-</a>
+{% include button-about.html %}
 {% include recruitment.html %}
 
 {% if site.data.pvpu.course.display %}

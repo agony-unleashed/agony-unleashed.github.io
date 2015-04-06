@@ -67,7 +67,7 @@ or contact one of our recruiters.
 
 ## About Agony
 
-{% picture thumb hyena.png class="thumb" %}
+{% picture thumb hyena.png class="thumb float" %}
 
 Agony Unleashed is a Nullsec PVP corp, specializing in small gang combat.
 
@@ -119,6 +119,8 @@ As such, we move around fairly frequently to go and see new places,
 and meet new people to shoot in the face.
 
 Agony regularly competes in the Alliance Tournament with varying success.
+
+{% picture confessor-speed.png class="thumb" %}
 
 ### What is Agony looking for?
 

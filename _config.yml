@@ -106,28 +106,21 @@ picture:
   output: pictures
   presets:
     default:
-      ppi: [ 1, 1.5, 2 ]
+      source_retina:
+        media: '(retina)'
+        width: '1600'
       source_large:
         media: '(large)'
-        width: '1440'
+        width: '800'
       source_medium:
         media: '(medium)'
-        width: '1280'
-      source_small:
-        media: '(small)'
-        width: '768'
+        width: '640'
       source_default:
-        width: '500'
+        width: '640'
     thumb:
       source_retina:
         media: '(retina)'
         width: '1000'
-      source_xxlarge:
-        media: '(xxlarge)'
-        width: '500'
-      source_xlarge:
-        media: '(xlarge)'
-        width: '500'
       source_large:
         media: '(large)'
         width: '500'

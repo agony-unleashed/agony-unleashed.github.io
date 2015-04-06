@@ -16,7 +16,7 @@ held space, built an outpost, taught thousands and thousands of players about PV
 and countless other accomplishments.
 You can learn more about the history of Agony in our [Agony Empire History] article.
 
-## Agony's Philosophy
+## The Agony Philosophy
 
 <ul>
 {% for item in site.data.about.philosophy %}

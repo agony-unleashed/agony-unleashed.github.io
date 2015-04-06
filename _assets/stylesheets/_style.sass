@@ -93,7 +93,8 @@ header.banner
     padding-left: 0
     padding-right: 0
 
-  p > a
+  p > a,
+  ol li > a
     border-bottom: 1px $jet dotted
 
   .external-links ul
@@ -116,11 +117,13 @@ header.banner
   text-transform: capitalize
   font-size: $status-button-font-size
 
-.pvpu, .npsi
+.pvpu,
+.npsi
   margin-top: 2rem
   padding-left: 0
 
-  h2, h3
+  h2,
+  h3
     text-transform: capitalize
 
   a
@@ -147,7 +150,9 @@ header.banner
   a
     border-bottom: 1px $jet dotted
 
-.apply, .faq
+.apply,
+.faq,
+.application-button
   +button-hover-glow
   text-transform: capitalize
   font-size: $status-button-font-size
@@ -159,6 +164,7 @@ header.banner
 .recruitment,
 .faq,
 .apply,
+.application-button,
 .pvpu a,
 .npsi a
   @media #{$small-only}

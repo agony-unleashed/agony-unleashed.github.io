@@ -123,7 +123,7 @@ picture:
         width: '1000'
       source_large:
         media: '(large)'
-        width: '500'
+        width: '400'
       source_medium:
         media: '(medium)'
         width: '640'

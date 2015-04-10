@@ -24,7 +24,7 @@ You can learn more about the history of Agony in our [Agony Empire History] arti
 {% endfor %}
 </ul>
 
-{% picture full omen-navy-issue-warp.png class="thumb" %}
+{% include thumbnail.html src="omen-navy-issue-warp.png" type="full" %}
 
 ## Frequently Asked Questions
 
@@ -91,7 +91,7 @@ to promote the game that we love.
 EVE PVP is a unique game experience, but it can be formidable as an outsider.
 We seek to help ease this transition, and to prepare new players to fight back.
 
-{% picture full sabre.png class="thumb" %}
+{% include thumbnail.html src="sabre.png" type="full" %}
 
 ### Are you pirates?
 

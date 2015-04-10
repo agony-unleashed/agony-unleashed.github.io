@@ -34,7 +34,7 @@ or make a post on Agony's forums.
 
 ### What is Agony all about?
 
-{% picture thumb harpy.png class="thumb float" %}
+{% include thumbnail.html src="harpy.png" type="thumb" class="float" %}
 
 Agony is a pure PVP corporation.
 We PVP for the challenge, and because it's fun.
@@ -122,7 +122,7 @@ Don't be fooled by the cheap T1 fleets we use during classes;
 our internal gangs range from AHACs to nano BCs to Blackops hotdrops.
 You can visit our [public killboard].
 
-{% picture full fleet-nebula.png class="thumb" %}
+{% include thumbnail.html src="fleet-nebula.png" type="full" %}
 
 ### Can I be in another corporation and have my alt in Agony?
 
@@ -173,7 +173,7 @@ you may wish to spend a few months focusing on getting more PVP experience, and 
 Similarly, if you feel the circumstances which lead your application to be rejected have changed,
 you are welcome to apply again.
 
-{% picture full blackbird.png class="thumb" %}
+{% include thumbnail.html src="blackbird.png" type="full" %}
 
 ## New Applicants
 
@@ -236,7 +236,7 @@ and likely be ignored or responded to some months later).
 If you need to contact our CEO or director (or any other Agony member),
 use the private messaging system on our [forums].
 
-{% picture full orthrus.png class="thumb" %}
+{% include thumbnail.html src="orthrus.png" type="full" %}
 
 [About Agony Empire]: {{ site.baseurl }}/about/
 [forums]: {{ site.data.internal_links.forum.url }}

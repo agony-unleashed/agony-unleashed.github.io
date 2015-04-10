@@ -20,6 +20,7 @@
     "headjs": "1.0.3",
     "highlightjs": "8.4.0",
     "normalize-css": "3.0.2",
+    "svg-loaders": "1.0.2",
     "webfontloader": "1.5.16"
   }
 }

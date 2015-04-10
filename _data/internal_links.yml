@@ -18,3 +18,8 @@ wiki:
   icon: fi-info
   paths:
     page: "index.php?title="
+
+chronicles:
+  name: chronicles
+  url: https://agonyunleashed.wordpress.com/
+  icon: fi-sound

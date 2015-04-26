@@ -1,3 +1,4 @@
+// Glow effect on hover.
 =hover-glow($color, $attr: false)
   $transition: all 0.25s ease-in
 
@@ -11,6 +12,7 @@
         transition: $transition
         color: $color
 
+// Glow effect for buttons.
 =button-hover-glow
   +button($bg: $jet)
   +hover-glow($jet)

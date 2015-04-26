@@ -1,4 +1,4 @@
-$retina-media-queries: (
+$retina: (
   "only screen and (-webkit-min-device-pixel-ratio: 2)",
   "only screen and (min--moz-device-pixel-ratio: 2)",
   "only screen and (-o-min-device-pixel-ratio: 2/1)",
@@ -25,5 +25,5 @@ $banner-ratios: (
   ($large-up, 1.618),
   ($xlarge-up, 2.591),
   ($xxlarge-up, 2.40),
-  ($retina-media-queries, 3.2),
+  ($retina, 3.2),
 );

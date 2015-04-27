@@ -27,3 +27,28 @@ $banner-ratios: (
   ($xxlarge-up, 2.40),
   ($retina, 3.2),
 );
+
+// Breakpoints.
+$bp-thumb: (
+  $large-up
+);
+
+$bp-internal-links: (
+  $medium-up
+);
+
+$bp-external-links: (
+  $medium-up
+);
+
+$bp-info-boxes: (
+  $medium-up
+);
+
+$bp-button-pair: (
+  $medium-up
+);
+
+$bp-recruitment: (
+  $large-up
+);

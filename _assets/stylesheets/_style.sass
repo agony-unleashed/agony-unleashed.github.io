@@ -4,14 +4,14 @@ html
 
 // Page title.
 h1
-  font-family: 'Audiowide', $font-family-serif
+  font-family: $page-title-font
   text-transform: lowercase
 
 // Social icon links.
 @each $icon, $color in $social-colors
   a.icon.fi-social-#{$icon}
-    color: $color
     +hover-glow(darken($color, 10%))
+    color: $color
 
 // Icon position.
 .icon
@@ -25,7 +25,7 @@ h1
   margin-bottom: 1rem
 
   &.float
-    @media #{$large-up}
+    @media #{$bp-thumb}
       float: left
       margin-right: 1rem
 
@@ -51,23 +51,20 @@ header.banner
 
   // Internal header links.
   .internal-links ul
+    margin-top: 1rem
     margin-left: 0
     list-style: none
     font-size: $internal-link-font-size
     text-transform: capitalize
 
-    @media #{$small-only}
-      margin-top: 1rem
+    @media #{$bp-internal-links}
+      margin-top: 0
 
-    @media #{$screen} and (min-width: 33.75em) and (max-width: #{upper-bound($small-range)})
-      +inline-list
-      +grid-column(12)
-      margin-top: 1rem
-      padding-left: 0
-
-    @media #{$medium-up}
+    @media #{$bp-internal-links}
       +inline-list
       +grid-column(8)
+
+    @media #{$medium-up}
       font-size: $internal-link-font-size-medium-up
 
     @media #{$large-up}
@@ -79,17 +76,18 @@ header.banner
   // External header links.
   .external-links ul
     +inline-list
+    display: none
     font-size: $external-link-font-size
 
-    @media #{$small-only}
-      display: none
-
-    @media #{$medium-up}
+    @media #{$bp-external-links}
       +grid-column(4)
-      font-size: $external-link-font-size-medium-up
+      display: initial
 
       a::before
         vertical-align: top
+
+    @media #{$medium-up}
+      font-size: $external-link-font-size-medium-up
 
     @media #{$large-up}
       font-size: $external-link-font-size-large-up
@@ -116,14 +114,14 @@ article.content
   // Link style within content.
   p > a,
   ol li > a
-    border-bottom: 1px $jet dotted
+    border-bottom: 1px $page-link-underline-color dotted
 
   // External links as content on homepage.
   .external-links ul
     +inline-list
     font-size: $external-link-font-size
 
-    @media #{$medium-up}
+    @media #{$bp-external-links}
       display: none
 
 // Recruitment button.
@@ -132,7 +130,7 @@ article.content
     &.recruitment-#{$status}
       +button($bg: $color)
       +hover-glow($snow, a)
-      color: $jet
+      color: $recruitment-button-color
       font-size: $status-button-font-size
 
 // About button.
@@ -146,6 +144,7 @@ article.content
 .npsi
   margin-top: 2rem
   padding-left: 0
+  text-align: center
 
   h2,
   h3
@@ -159,9 +158,10 @@ article.content
   time
     display: block
 
-  @media #{$large-up}
+  @media #{$bp-info-boxes}
     +grid-column(6)
     padding-left: 0
+    text-align: left
 
 // Squadron status.
 .squadrons
@@ -175,7 +175,7 @@ article.content
 // List of recruiters.
 .recruiters
   a
-    border-bottom: 1px $jet dotted
+    border-bottom: 1px $page-link-underline-color dotted
 
 // Common button style.
 .apply,
@@ -185,7 +185,7 @@ article.content
   text-transform: capitalize
   font-size: $status-button-font-size
 
-  @media #{$medium-up}
+  @media #{$bp-button-pair}
     display: inline-block
 
 // Common button styles.
@@ -201,7 +201,7 @@ article.content
 
 // Recruitment FAQ page.
 #recruitment-faq
-  @media #{$large-up}
+  @media #{$bp-recruitment}
     #squadrons
       +grid-column(6)
 

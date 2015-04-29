@@ -118,9 +118,12 @@ picture:
       source_default:
         width: '640'
     thumb:
+      source_retina_large:
+        media: '(retina_large)'
+        width: '800'
       source_retina:
         media: '(retina)'
-        width: '1000'
+        width: '1280'
       source_large:
         media: '(large)'
         width: '400'

@@ -39,7 +39,8 @@ $banner-ratios: (
 
 // Breakpoints.
 $bp-thumb: (
-  $large-up
+  retina("min-width:#{lower-bound($medium-range)}"),
+  "#{$screen} and (min-width: 36.563em)"
 );
 
 $bp-internal-links: (

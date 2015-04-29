@@ -7,6 +7,15 @@ $retina: (
   "only screen and (min-resolution: 2dppx)"
 );
 
+// Generates a retina media query.
+@function retina($query) {
+  $queries: ();
+  @each $q in $retina {
+    $queries: $queries, "#{$q} and (#{$query})"
+  }
+  @return $queries
+}
+
 $social-colors: (
   facebook: #3b5998,
   google-plus: #df4a32,

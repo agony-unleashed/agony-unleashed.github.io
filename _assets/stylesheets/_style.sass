@@ -155,8 +155,15 @@ article.content
 
   a
     +button-hover-glow
+    width: 100%
     font-size: $status-button-font-size
     text-transform: capitalize
+
+    @media #{$bp-button}
+      width: 60%
+
+    @media #{$bp-info-boxes}
+      width: initial
 
   time
     display: block
@@ -196,11 +203,10 @@ article.content
 .recruitment,
 .faq,
 .apply,
-.application-button,
-.pvpu a,
-.npsi a
-  @media #{$small-only}
-    width: 100%
+.application-button
+  width: 100%
+  @media #{$bp-button}
+    width: initial
 
 // Recruitment FAQ page.
 #recruitment-faq

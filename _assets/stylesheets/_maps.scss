@@ -51,11 +51,15 @@ $bp-external-links: (
 );
 
 $bp-info-boxes: (
-  $medium-up
+  "#{$screen} and (min-width: 43.750em)"
+);
+
+$bp-button: (
+  "#{$screen} and (min-width: 36.563em)"
 );
 
 $bp-button-pair: (
-  $medium-up
+  "#{$screen} and (min-width: 36.563em)"
 );
 
 $bp-recruitment: (

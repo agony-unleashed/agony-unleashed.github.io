@@ -1,10 +1,11 @@
 ---
 layout: default
+banner: agony-unleashed-banner
 ---
 
 <header class="banner">
   <a href="{{ site.baseurl }}/">
-    {% picture banner agony-unleashed-banner-large.jpg source_retina: agony-unleashed-banner-retina.jpg source_xxlarge: agony-unleashed-banner-xxlarge.jpg source_xlarge: agony-unleashed-banner-xlarge.jpg source_large: agony-unleashed-banner-large.jpg source_medium: agony-unleashed-banner-medium.jpg source_default: agony-unleashed-banner-small.jpg alt="Agony Unleashed" %}
+  {% picture banner {{ page.banner }}-large.jpg source_retina: {{ page.banner }}-retina.jpg source_xxlarge: {{ page.banner }}-xxlarge.jpg source_xlarge: {{ page.banner }}-xlarge.jpg source_large: {{ page.banner }}-large.jpg source_medium: {{ page.banner }}-medium.jpg source_default: {{ page.banner }}-small.jpg alt="Agony Unleashed" %}
   </a>
   <div class="content">
     {% include internal_links.html %}

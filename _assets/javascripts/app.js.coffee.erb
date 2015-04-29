@@ -25,3 +25,19 @@ hljs.initHighlightingOnLoad()
 # Set Featherlight defaults.
 $.featherlight.defaults.loading =
   '<img src="<%= asset_path "puff.svg" %>" />'
+
+retina = (width) ->
+  query = "and (min-width: #{width})"
+  "only screen and (-webkit-min-device-pixel-ratio: 2) #{query}," +
+  "only screen and (min--moz-device-pixel-ratio: 2) #{query}," +
+  "only screen and (-o-min-device-pixel-ratio: 2/1) #{query}," +
+  "only screen and (min-device-pixel-ratio: 2) #{query}," +
+  "only screen and (min-resolution: 192dpi) #{query}," +
+  "only screen and (min-resolution: 2dppx) #{query}"
+
+$(document).foundation 'interchange',
+  named_queries:
+    retina_medium: retina('40.063em')
+    retina_large: retina('64.063em')
+    retina_xlarge: retina('90.063em')
+    retina_xxlarge: retina('120.063em')

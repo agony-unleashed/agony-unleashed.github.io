@@ -141,7 +141,7 @@ picture:
         width: '2880'
       source_retina:
         media: '(retina)'
-        width: '1280'
+        width: '1440'
       source_xxlarge:
         media: '(xxlarge)'
         width: '2880'

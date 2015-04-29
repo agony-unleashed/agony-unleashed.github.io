@@ -34,7 +34,9 @@ $banner-ratios: (
   ($large-up, 1.618),
   ($xlarge-up, 2.591),
   ($xxlarge-up, 2.40),
-  ($retina, 3.2),
+  ($retina, 1.618),
+  (retina("min-width:#{lower-bound($large-range)}"), 2.40),
+  (retina("min-width:#{lower-bound($xlarge-range)}"), 3.2),
 );
 
 // Breakpoints.

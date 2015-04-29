@@ -130,9 +130,15 @@ picture:
       source_default:
         width: '640'
     banner:
+      source_retina_xlarge:
+        media: '(retina_xlarge)'
+        width: '3840'
+      source_retina_large:
+        media: '(retina_large)'
+        width: '2880'
       source_retina:
         media: '(retina)'
-        width: '3840'
+        width: '1280'
       source_xxlarge:
         media: '(xxlarge)'
         width: '2880'

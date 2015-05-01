@@ -1,8 +1,8 @@
 ---
 # Jekyll options.
 name: Agony Unleashed
-domain: https://agony-unleashed.github.io/agony-unleashed.com
-baseurl: https://agony-unleashed.github.io/agony-unleashed.com
+domain: https://agony-unleashed.com
+baseurl: https://agony-unleashed.com
 markdown: redcarpet
 highlighter: pygments
 
@@ -33,7 +33,7 @@ gems:
 
 # Jekyll::AssetsPlugin options.
 assets:
-  baseurl: https://agony-unleashed.github.io/agony-unleashed.com/assets/
+  baseurl: https://agony-unleashed.com/assets/
   sources:
     - _assets/images
     - _assets/javascripts

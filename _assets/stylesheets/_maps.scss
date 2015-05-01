@@ -29,10 +29,10 @@ $recruitment-status-colors: (
 );
 
 $banner-ratios: (
-  ($small-up, 1.54),
+  ($small-up, 1.67),
   ($medium-up, 1.90),
-  ($large-up, 2.17),
-  ($xlarge-up, 2.38),
+  ($large-up, 2.97),
+  ($xlarge-up, 2.97),
   ($xxlarge-up, 3.2),
   (retina("min-width:#{lower-bound($xlarge-range)}"), 3.2),
 );

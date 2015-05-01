@@ -118,8 +118,8 @@ picture:
       source_default:
         width: '640'
     thumb:
-      source_retina_large:
-        media: '(retina_large)'
+      source_large_retina:
+        media: '(large_retina)'
         width: '800'
       source_retina:
         media: '(retina)'
@@ -133,15 +133,18 @@ picture:
       source_default:
         width: '640'
     banner:
-      source_retina_xlarge:
-        media: '(retina_xlarge)'
+      source_xlarge_retina:
+        media: '(xlarge_retina)'
         width: '3840'
-      source_retina_large:
-        media: '(retina_large)'
+      source_large_retina:
+        media: '(large_retina)'
         width: '2880'
+      source_medium_retina:
+        media: '(medium_retina)'
+        width: '2048'
       source_retina:
         media: '(retina)'
-        width: '1440'
+        width: '1280'
       source_xxlarge:
         media: '(xxlarge)'
         width: '2880'

@@ -115,6 +115,12 @@ article.content
     padding-left: 0
     padding-right: 0
 
+  // Hyphenation in content.
+  section
+    > p, > ol
+      text-align: justify
+      +hyphens
+
   // Link style within content.
   p > a,
   ol li > a

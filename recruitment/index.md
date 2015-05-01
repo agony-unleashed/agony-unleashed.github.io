@@ -8,8 +8,6 @@ id: recruitment
 {% assign recruitment = site.data.recruitment %}
 {% assign text = site.data.recruitment.text %}
 
-{% include squadrons.html %}
-
 Please note that Agony is not a training corp,
 and you should not be applying to Agony to "learn to PVP".
 For that, simply attend one of our public PVP classes:
@@ -25,9 +23,15 @@ For questions regarding recruitment you can post on the forum,
 inquire in our in-game public channel `Agony Public`,
 or contact one of our recruiters.
 
-### Recruiters
+<div id="squadrons">
+  <h3>Recruitment Status</h3>
+  {% include squadrons.html %}
+</div>
 
-{% include recruiters.html %}
+<div id="recruiters">
+  <h3>Recruiters</h3>
+  {% include recruiters.html %}
+</div>
 
 ## About Agony
 

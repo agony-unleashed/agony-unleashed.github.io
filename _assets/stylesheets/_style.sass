@@ -209,11 +209,11 @@ article.content
   @media #{$bp-button}
     width: initial
 
-// Recruitment FAQ page.
-#recruitment-faq
-  @media #{$bp-recruitment}
-    #squadrons
-      +grid-column(6)
+// Recruitment and squadron boxes.
+@media #{$bp-recruitment}
+  #squadrons
+    +grid-column(6)
+    padding-left: 0
 
-    #recruiters
-      +grid-column(6)
+  #recruiters
+    +grid-column(6)

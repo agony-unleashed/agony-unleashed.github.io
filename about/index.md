@@ -1,7 +1,7 @@
 ---
 layout: banner
 title: About
-heading: About Agony Unleashed
+heading: About Agony
 id: about
 ---
 

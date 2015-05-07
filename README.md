@@ -1,6 +1,6 @@
 # agony-unleashed.com
 
-[![All rights reserved](https://img.shields.io/badge/license-All_rights_reserved-red.svg)](./LICENSE.txt)
+[![All rights reserved](https://img.shields.io/badge/license-All_rights_reserved-blue.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/agony-unleashed/agony-unleashed.github.io.svg)](https://gemnasium.com/agony-unleashed/agony-unleashed.github.io)
 [![Build Status](https://img.shields.io/travis/agony-unleashed/agony-unleashed.github.io/master.svg)](https://travis-ci.org/agony-unleashed/agony-unleashed.github.io)
 

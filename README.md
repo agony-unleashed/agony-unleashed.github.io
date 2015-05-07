@@ -1,8 +1,8 @@
 # agony-unleashed.com
 
 [![All rights reserved](https://img.shields.io/badge/license-All_rights_reserved-red.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/agony-unleashed/agony-unleashed.com.svg)](https://gemnasium.com/agony-unleashed/agony-unleashed.com)
-[![Build Status](https://img.shields.io/travis/agony-unleashed/agony-unleashed.com/master.svg)](https://travis-ci.org/agony-unleashed/agony-unleashed.com)
+[![Dependency Status](https://img.shields.io/gemnasium/agony-unleashed/agony-unleashed.github.io.svg)](https://gemnasium.com/agony-unleashed/agony-unleashed.github.io)
+[![Build Status](https://img.shields.io/travis/agony-unleashed/agony-unleashed.github.io/master.svg)](https://travis-ci.org/agony-unleashed/agony-unleashed.github.io)
 
 Source for [agony-unleashed.com](https://agony-unleashed.com/) running on Jekyll and Foundation.
 

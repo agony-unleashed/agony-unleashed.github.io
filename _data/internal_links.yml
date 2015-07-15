@@ -1,7 +1,7 @@
 ---
 forum:
   name: forums
-  url: https://forums.agony-unleashed.com
+  url: http://forums.agony-unleashed.com
   icon: fi-comment
   paths:
     topic: "index.php?/topic/"
@@ -9,12 +9,12 @@ forum:
 
 killboard:
   name: killboard
-  url: https://killboard.agony-unleashed.com
+  url: http://public-kb.agony-unleashed.com
   icon: fi-skull
 
 wiki:
   name: wiki
-  url: https://wiki.agony-unleashed.com
+  url: http://wiki.agony-unleashed.com
   icon: fi-info
   paths:
     page: "index.php?title="

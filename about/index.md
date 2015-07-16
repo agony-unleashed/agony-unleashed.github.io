@@ -30,7 +30,7 @@ You can learn more about the history of Agony in our [Agony Empire History] arti
 
 ### Where is Agony's HQ?
 
-Agony currently bases out of E-YJ8G in Catch.
+Agony currently bases out of Thera.
 
 ### Who is the CEO of Agony?
 

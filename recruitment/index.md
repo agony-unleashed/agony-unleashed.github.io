@@ -47,7 +47,7 @@ Agony has lived in almost every NPC Nullsec region from Venal to Great Wildlands
 has briefly dabbled at Sov-holding in Providence (while it was an -A- set up Fight Club back in 2010),
 and tried a bit of Faction Warfare.
 
-We are currently living in E-YJ8G, Catch as part of the HERO Coalition.
+We are currently living in Thera.
 This provides us with access one of the most volatile and active Nullsec regions in the game,
 as well as easy access to Providence.
 As usual, we're running frequent small gang roams through the neighborhood,

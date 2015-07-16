@@ -131,6 +131,12 @@ article.content
     +inline-list
     font-size: $external-link-font-size
 
+    > li
+      margin-left: 1rem
+
+      &:first-child
+        margin-left: 0
+
     @media #{$bp-external-links}
       display: none
 

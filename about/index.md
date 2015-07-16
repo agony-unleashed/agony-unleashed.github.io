@@ -34,7 +34,9 @@ Agony currently bases out of E-YJ8G in Catch.
 
 ### Who is the CEO of Agony?
 
-Gizznitt Malikite.
+[{{ site.data.text.ceo.name }}]
+({{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.user }}{{ site.data.text.ceo.user }}).
+
 
 ### What does Agony do?
 
@@ -48,7 +50,8 @@ We favor tactics and intelligence over numbers and brute force.
 ### How can my corporation apply to join the Agony Empire alliance?
 
 Agony is a one corporation alliance.
-If you're interested in merging into Agony, please contact Gizznitt.
+If you're interested in merging into Agony,
+please contact {{ site.data.text.ceo.name }}.
 
 ### What is Agony's position on blues?
 
@@ -108,7 +111,7 @@ If you're in nullsec, you choose to be there and accept that you will be shot at
 
 We have accepted mercenary contracts in the past,
 but it's a rare occurrence.
-If you're interested, contact Gizznitt.
+If you're interested, contact {{ site.data.text.ceo.name }}.
 
 ### Do you hold space or intend to?
 

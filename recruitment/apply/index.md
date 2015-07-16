@@ -39,7 +39,7 @@ It's worth taking that extra moment to pay attention to detail and get your appl
    **Do not edit the file in any other way, or you will mess up the formatting.**
 3. After you have filled out the questionnaire, create a thread in the Public Chat Forum forum.
    Title your thread: `[APPLICANT] Your Character's Name`.
-   For Example, Gizznitt's application would be: `[APPLICANT] Gizznitt Malikite`.
+   For Example, {{ site.data.text.ceo.nick }}'s application would be: `[APPLICANT] {{ site.data.text.ceo.name }}`.
 4. In the body of your new thread, copy the entire text of the application, and paste it in the thread.
 5. Proofread your application to see that you haven't accidentally missed or erased any questions.
 6. Submit the post.

@@ -230,8 +230,9 @@ on whether you are to be invited to join Agony.
 #### Questions
 
 Please direct questions to any Agony recruiters,
-but please **do not EVE mail Gizznitt**,
-(unless you want your mail to get lost in the forest of other mails Gizznitt gets daily,
+but please **do not EVE mail {{ site.data.text.ceo.nick }}**,
+(unless you want your mail to get lost in the forest of other mails
+{{ site.data.text.ceo.nick }} gets daily,
 and likely be ignored or responded to some months later).
 If you need to contact our CEO or director (or any other Agony member),
 use the private messaging system on our [forums].

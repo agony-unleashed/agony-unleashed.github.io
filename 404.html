@@ -1,6 +1,12 @@
 ---
-layout: body
-title: Page Not Found
+layout: banner
+title: 404 - Uncharted System
+heading: lost in space
 ---
 
-Sorry, but the page you were trying to view does not exist.
+<p><strong>{{ site.data.text.not_found }}</strong></p>
+
+<a class="return icon {{ site.data.text.return_button.icon }}"
+   href="{{ site.baseurl }}">
+  {{ site.data.text.return_button.link }}
+</a>

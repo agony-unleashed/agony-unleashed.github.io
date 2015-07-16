@@ -1,4 +1,10 @@
 ---
+not_found: The entered coordinates returned 404.
+
+return_button:
+  link: return to know space
+  icon: fi-star
+
 ceo:
   name: Itkovian Beddict
   nick: Itko

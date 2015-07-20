@@ -33,8 +33,6 @@ squadrons:
     recruiters:
       - name: Audrey Koshka
         user: 7048-audrey-koshka
-      - name: Cmore Hanaya
-        user: 10158-cmore-hanaya
 
   echo:
     open: true

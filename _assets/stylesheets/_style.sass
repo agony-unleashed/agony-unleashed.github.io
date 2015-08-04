@@ -40,12 +40,23 @@ div.highlight
 
 // Top banner.
 header.banner
-  // Set banner size while image is loading.
-  img
-    @each $media, $ratio in $banner-ratios
+  // Banner image.
+  a.banner
+    display: block
+    min-width: 100%
+    background-size: 100% 100%
+    background-repeat: no-repeat
+
+    @each $name, $media, $ratio in $banner-ratios
+      $img: 'banner/agony-confessor'
+
       @media #{$media}
-        min-width: 100%
         min-height: 100vw / $ratio
+        background-image: url(asset_path("#{$img}-#{$name}.jpg"))
+
+        @media #{$retina}
+          $x: if($name == 'xxlarge', '', '-retina')
+          background-image: url(asset_path("#{$img}-#{$name}#{$x}.jpg"))
 
   // Content below banner.
   .content

@@ -1,6 +1,7 @@
 ---
 course:
-  display: false
+  display: true
+  scheduled: false
   icon: fi-target
   name: PvP-Basic
   date: 2015-04-04 07:30:00 UTC
@@ -10,3 +11,5 @@ course:
 text:
   header: PvP-U course
   link: info &amp; signup
+  unscheduled: Unscheduled
+  upcoming: New course coming soon.

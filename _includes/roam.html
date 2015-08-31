@@ -3,6 +3,8 @@
 
 <section class="{{ include.class }}">
   <h2>{{ text.header }}</h2>
+
+{% if info.scheduled %}
   <h3>{{ info.name }}
   <time datetime="{{ info.date | date: "%Y-%m-%d %H:%M%z" }}">
     {{ info.date | date: "%Y %b %e" }}
@@ -15,4 +17,8 @@
      href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.topic }}{{ info.topic }}">
     {{ text.link }}
   </a>
+{% else %}
+  <h3>{{ text.unscheduled }}</h3>
+  <p>{{ text.upcoming }}</p>
+{% endif %}
 </section>

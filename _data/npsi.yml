@@ -1,6 +1,7 @@
 ---
 roam:
-  display: false
+  display: true
+  scheduled: false
   icon: fi-flag
   name: rail harpies
   date: 2015-05-16 20:00:00 UTC
@@ -9,3 +10,5 @@ roam:
 text:
   header: NPSI roam
   link: info &amp; discussion
+  unscheduled: Unscheduled
+  upcoming: More roams coming soon.

@@ -47,13 +47,12 @@ Agony has lived in almost every NPC Nullsec region from Venal to Great Wildlands
 has briefly dabbled at Sov-holding in Providence (while it was an -A- set up Fight Club back in 2010),
 and tried a bit of Faction Warfare.
 
-We are currently living in Thera.
-This provides us with access one of the most volatile and active Nullsec regions in the game,
-as well as easy access to Providence.
-As usual, we're running frequent small gang roams through the neighborhood,
-but our members are also able to join other Coalition fleets and participate
-in the larger battles taking place throughout Catch.
-There are no mandatory ops to attend but there's almost always something going on!
+We are currently living in Thera
+which provides us with ready access to all of New Eden.
+We can be regularly seen roaming around a number of nullsec regions
+and are not tied to the latest FOTM region to find content.
+Indeed, if you have a region in mind you'd like to visit for content,
+you can usually find your way there quite easily.
 
 ### The Agony Philosophy
 

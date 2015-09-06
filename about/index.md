@@ -9,12 +9,14 @@ id: about
 
 At the beginning of 2006, Agony was founded by a small group of players
 who wanted to teach new players the basics of PVP.
-Since that time, Agony has gone from a ten character corporation that only flew frigates,
-to a 250 character corporation that has participated in four alliance tournaments,
+Since that time, Agony has gone from a ten character corporation
+that only flew frigates, to a 250 character corporation
+that has participated in four alliance tournaments,
 fought in countless conflicts all over the EVE universe,
-held space, built an outpost, taught thousands and thousands of players about PVP,
-and countless other accomplishments.
-You can learn more about the history of Agony in our [Agony Empire History] article.
+held space, built an outpost, taught thousands and thousands
+of players about PVP, and countless other accomplishments.
+You can learn more about the history of Agony
+in our [Agony Empire History] article.
 
 ## The Agony Philosophy
 
@@ -42,8 +44,9 @@ Agony currently bases out of Thera.
 
 We PVP, plain and simple.
 
-We operate nearly exclusively in nullsec, avoid blues, shoot anything that moves,
-and generally try to be pretty damn good at what we do.
+We operate nearly exclusively in nullsec, avoid blues,
+shoot anything that moves, and generally
+try to be pretty damn good at what we do.
 We expect our members to always be improving.
 We favor tactics and intelligence over numbers and brute force.
 
@@ -57,13 +60,14 @@ please contact {{ site.data.text.ceo.name }}.
 
 We don’t maintain permanent blues.
 
-From time to time, we’ll consider setting positive standings with a small number of people
-in order to accomplish a particular objective
+From time to time, we’ll consider setting positive standings
+with a small number of people in order to accomplish a particular objective.
 We don’t set defensive blues.
 
 ### If you guys live in nullsec and don’t have a ton of blues, how do you ever make ISK?
 
-Agony pilots are mostly independent, and responsible for making ISK on their own.
+Agony pilots are mostly independent,
+and responsible for making ISK on their own.
 Some have trade alts, mission alts, or POS network and industry alts in empire.
 Others go ratting or missioning in nullsec.
 
@@ -105,7 +109,8 @@ who have demonstrated that they are willing to PVP in lowsec.
 We operate in nullsec and consider lowsec an uninteresting distraction.
 In nullsec on the other hand, we will shoot at anyone
 who is not in Agony (or in an Agony gang), or one of our allies.
-If you’re in nullsec, you choose to be there and accept that you will be shot at.
+If you’re in nullsec, you choose to be there
+and accept that you will be shot at.
 
 ### Do you accept contracts from other corporations or alliances? Are you mercenaries for hire?
 

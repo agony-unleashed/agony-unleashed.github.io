@@ -9,7 +9,7 @@ id: recruitment
 {% assign text = site.data.recruitment.text %}
 
 Please note that Agony is not a training corp,
-and you should not be applying to Agony to "learn to PVP".
+and you should not be applying to Agony to “learn to PVP".
 For that, simply attend one of our public PVP classes:
 these are available to anyone, and you do **not** have
 to be a member of Agony to attend them.
@@ -58,10 +58,10 @@ we have the ability to raid a new area of space every day (usually Nullsec).
 This provides us with huge variety of targets:
 from large bloc fleets to highly skilled small gangs,
 and from solo roamers to gate camps.
-As usual, we're running frequent small gang roams through whatever region
+As usual, we’re running frequent small gang roams through whatever region
 takes our fancy on a given day.
 There are no mandatory ops to attend,
-but there's almost always something going on!
+but there’s almost always something going on!
 
 ### The Agony Philosophy
 
@@ -80,13 +80,13 @@ to 20+ person fleets with more advanced doctrines,
 and from HACs to Attack BCs, or multi-timezone capital supported BS gangs.
 In our currently deployment, we naturally focus on lighter, more agile ships in
 order to engage greater numbers and move quickly through regions,
-but we've used all kinds of different doctrines in 2015,
+but we’ve used all kinds of different doctrines in 2015,
 and will no doubt do the same in future.
 
 Agony offers active forums where fleet ideas, ship fittings,
 and tactics are discussed
 We maintain an extensive wiki providing a repository
-of knowledge about many of Eve's game mechanics.
+of knowledge about many of Eve’s game mechanics.
 
 We also have logistical services for our members to keep
 hangars full of ships and modules.
@@ -112,7 +112,7 @@ Agony has a Trial period so that both parties can test out the waters,
 and determine if the corp is a good fit for the individual.
 In this period we ensure that the Trial fits in with the corp socially
 and has, or is developing, passable PVP skills.
-We aren't looking for elite PVPers, but some basic skill should be developed
+We aren’t looking for elite PVPers, but some basic skill should be developed
 during the Trial by even the greenest of recruits.
 Conversely, the Trial period is for the individual to see whether
 Agony’s play style and culture are right for them.
@@ -124,7 +124,7 @@ particularly during the Trial so we can get to know them!
 
 ### Joining Agony
 
-Our application process shouldn't take more than ten to fifteen minutes,
+Our application process shouldn’t take more than ten to fifteen minutes,
 and contains just a handful of questions.
 Once posted, your application will be transferred to a restricted area
 of the forum as soon as possible, after which we will begin processing it.

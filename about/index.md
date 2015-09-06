@@ -28,7 +28,7 @@ You can learn more about the history of Agony in our [Agony Empire History] arti
 
 ## Frequently Asked Questions
 
-### Where is Agony's HQ?
+### Where is Agony’s HQ?
 
 Agony currently bases out of Thera.
 
@@ -50,18 +50,18 @@ We favor tactics and intelligence over numbers and brute force.
 ### How can my corporation apply to join the Agony Empire alliance?
 
 Agony is a one corporation alliance.
-If you're interested in merging into Agony,
+If you’re interested in merging into Agony,
 please contact {{ site.data.text.ceo.name }}.
 
-### What is Agony's position on blues?
+### What is Agony’s position on blues?
 
-We don't maintain permanent blues.
+We don’t maintain permanent blues.
 
-From time to time, we'll consider setting positive standings with a small number of people
+From time to time, we’ll consider setting positive standings with a small number of people
 in order to accomplish a particular objective
-We don't set defensive blues.
+We don’t set defensive blues.
 
-### If you guys live in nullsec and don't have a ton of blues, how do you ever make ISK?
+### If you guys live in nullsec and don’t have a ton of blues, how do you ever make ISK?
 
 Agony pilots are mostly independent, and responsible for making ISK on their own.
 Some have trade alts, mission alts, or POS network and industry alts in empire.
@@ -84,7 +84,7 @@ We develop and teach advanced tactics as well as basic ones.
 While EVE University provides a broad introduction to the game,
 Agony seeks to provide a deep understanding of just PVP.
 
-### Isn't Agony just a new player PVP training corporation?
+### Isn’t Agony just a new player PVP training corporation?
 
 No.
 Agony is a small gang nullsec PVP corporation.
@@ -105,21 +105,21 @@ who have demonstrated that they are willing to PVP in lowsec.
 We operate in nullsec and consider lowsec an uninteresting distraction.
 In nullsec on the other hand, we will shoot at anyone
 who is not in Agony (or in an Agony gang), or one of our allies.
-If you're in nullsec, you choose to be there and accept that you will be shot at.
+If you’re in nullsec, you choose to be there and accept that you will be shot at.
 
 ### Do you accept contracts from other corporations or alliances? Are you mercenaries for hire?
 
 We have accepted mercenary contracts in the past,
-but it's a rare occurrence.
-If you're interested, contact {{ site.data.text.ceo.name }}.
+but it’s a rare occurrence.
+If you’re interested, contact {{ site.data.text.ceo.name }}.
 
 ### Do you hold space or intend to?
 
 Agony does not artificially limit what we do.
 
 While Agony has held Sov in the past,
-the current sovereignty mechanics and landscape doesn't mesh well
-with a small-gang PVP Alliance that doesn't want permanent blues.
+the current sovereignty mechanics and landscape doesn’t mesh well
+with a small-gang PVP Alliance that doesn’t want permanent blues.
 
 We do not currently hold space, nor do we plan to in the near future.
 

@@ -17,9 +17,9 @@ We do that through the love of a good fight; thinking outside the box;
 fighting superior forces with superior tactics;
 and knowledge sharing, internally and externally through our PvP university.**
 
-Before you get started, it's worth noting that being able to follow instructions properly
+Before you get started, it’s worth noting that being able to follow instructions properly
 is taken into consideration by the membership of Agony when reading your questionnaire.
-It's worth taking that extra moment to pay attention to detail and get your application right.
+It’s worth taking that extra moment to pay attention to detail and get your application right.
 **Not following instructions can lead to your application being rejected.**
 
 <div>
@@ -38,10 +38,10 @@ It's worth taking that extra moment to pay attention to detail and get your appl
 2. Edit the file and remove the `-- Your answer here --` and replace it with your answer.
    **Do not edit the file in any other way, or you will mess up the formatting.**
 3. After you have filled out the questionnaire, create a thread in the Public Chat Forum forum.
-   Title your thread: `[APPLICANT] Your Character's Name`.
-   For Example, {{ site.data.text.ceo.nick }}'s application would be: `[APPLICANT] {{ site.data.text.ceo.name }}`.
+   Title your thread: `[APPLICANT] Your Character’s Name`.
+   For Example, {{ site.data.text.ceo.nick }}’s application would be: `[APPLICANT] {{ site.data.text.ceo.name }}`.
 4. In the body of your new thread, copy the entire text of the application, and paste it in the thread.
-5. Proofread your application to see that you haven't accidentally missed or erased any questions.
+5. Proofread your application to see that you haven’t accidentally missed or erased any questions.
 6. Submit the post.
    Do not worry about it being public, it will be moved to the internal section of the forums quickly.
 

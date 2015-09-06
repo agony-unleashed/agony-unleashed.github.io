@@ -17,7 +17,7 @@ wiki:
   url: http://wiki.agony-unleashed.com
   icon: fi-info
   paths:
-    page: "index.php?title="
+    page: "index.php/"
 
 chronicles:
   name: chronicles

@@ -136,4 +136,4 @@ We do not currently hold space, nor do we plan to in the near future.
 
 {% assign wiki=site.data.internal_links.wiki %}
 
-[Agony Empire History]: {{ wiki.url }}/{{ wiki.page }}The_History_of_AGONY
+[Agony Empire History]: {{ wiki.url }}/{{ wiki.paths.page }}The_History_of_AGONY

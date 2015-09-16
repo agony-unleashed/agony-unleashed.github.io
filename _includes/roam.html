@@ -13,10 +13,12 @@
   </time>
   </h3>
 
-  <a class="icon {{ info.icon }}"
-     href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.topic }}{{ info.topic }}">
-    {{ text.link }}
-  </a>
+  {% if info.topic %}
+    <a class="icon {{ info.icon }}"
+       href="{{ site.data.internal_links.forum.url }}/{{ site.data.internal_links.forum.paths.topic }}{{ info.topic }}">
+      {{ text.link }}
+    </a>
+  {% endif %}
 {% else %}
   <h3>{{ text.unscheduled }}</h3>
   <p class="info">{{ text.upcoming }}</p>

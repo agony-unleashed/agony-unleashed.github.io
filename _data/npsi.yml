@@ -1,11 +1,11 @@
 ---
 roam:
   display: true
-  scheduled: false
+  scheduled: true
   icon: fi-flag
-  name: rail harpies
-  date: 2015-05-16 20:00:00 UTC
-  topic: 24780-16-may-2000-agonys-public-roam-npsi-rail-harpies
+  name: Doctrine TBD
+  date: 2015-09-26 20:00:00 UTC
+  topic: false
 
 text:
   header: NPSI roam

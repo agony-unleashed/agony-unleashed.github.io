@@ -9,13 +9,17 @@ picture: agony-unleashed.png
 
 <p>{{ site.data.about.text.about }}</p>
 
-{% include button-about.html %}
-{% include recruitment.html %}
+<div id="home-buttons">
+  {% include button-about.html %}
+  {% include recruitment.html %}
+</div>
 
-{% if site.data.pvpu.course.display %}
-  {% include roam.html class="pvpu" info=site.data.pvpu.course text=site.data.pvpu.text %}
-{% endif %}
+<div id="home-info">
+  {% if site.data.pvpu.course.display %}
+    {% include roam.html class="pvpu" info=site.data.pvpu.course text=site.data.pvpu.text %}
+  {% endif %}
 
-{% if site.data.npsi.roam.display %}
-  {% include roam.html class="npsi" info=site.data.npsi.roam text=site.data.npsi.text %}
-{% endif %}
+  {% if site.data.npsi.roam.display %}
+    {% include roam.html class="npsi" info=site.data.npsi.roam text=site.data.npsi.text %}
+  {% endif %}
+</div>

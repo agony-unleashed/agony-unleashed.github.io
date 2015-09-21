@@ -248,3 +248,22 @@ article.content
 
   #recruiters
     +grid-column(6)
+
+@media #{$bp-info-boxes-wide}
+  #home-buttons
+    +grid-column(6, $push: 6)
+    margin-top: 1rem
+
+    .about,
+    .recruitment
+      width: 90%
+
+  #home-info
+    +grid-column(6, $pull: 6)
+    padding-left: 0
+
+    .pvpu,
+    .npsi
+      float: none
+      width: 100%
+      margin-top: 0

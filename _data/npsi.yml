@@ -1,7 +1,7 @@
 ---
 roam:
   display: true
-  scheduled: true
+  scheduled: false
   icon: fi-flag
   name: Destroyers Unleashed
   date: 2015-09-26 20:00:00 UTC

@@ -1,11 +1,11 @@
 ---
 roam:
   display: true
-  scheduled: false
+  scheduled: true
   icon: fi-flag
-  name: Destroyers Unleashed
-  date: 2015-09-26 20:00:00 UTC
-  topic: 25282-26-sept-2000-agonys-public-roam-are-back-npsi-destroyers
+  name: Caracals
+  date: 2015-10-24 20:00:00 UTC
+  topic: 25365-24-oct-2000-agonys-public-roam-npsi-caracals
 
 text:
   header: NPSI roam

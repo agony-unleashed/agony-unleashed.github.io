@@ -1,7 +1,7 @@
 ---
 roam:
   display: true
-  scheduled: true
+  scheduled: false
   icon: fi-flag
   name: Caracals
   date: 2015-10-24 20:00:00 UTC

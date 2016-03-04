@@ -1,6 +1,6 @@
 {
   "name": "jekyll-and-zurb",
-  "version": "2.11.6",
+  "version": "2.12.2",
   "homepage": "https://github.com/razor-x/jekyll-and-zurb",
   "authors": [
     "Evan Sosenko <razorx@evansosenko.com>"
@@ -21,6 +21,6 @@
     "normalize-css": "3.0.3",
     "svg-loaders": "1.0.2",
     "picturefill": "2.3.1",
-    "webfontloader": "1.6.10"
+    "webfontloader": "1.6.20"
   }
 }

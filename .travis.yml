@@ -1,11 +1,7 @@
 ---
-language:
-  - ruby
-  - node_js
-rvm:
-  - 2
-node_js:
-  - stable
+language: ruby
+sudo: false
+rvm: 2
 cache:
   bundler: true
   directories:
@@ -20,10 +16,11 @@ before_script:
 # Create a deploy key and encrypt it with:
 # $ travis encrypt-file .deploy_key
 # Commit the encrypted file and
-# replace the first command below with the generated one.
+# replace the key id in the third command below with the generated one.
 before_install:
+  - nvm install
   - if [ ! -z "${DEPLOY_KEY}" ]; then eval "$(ssh-agent)"; fi
-  - ./.travis_key.sh "openssl aes-256-cbc -K $encrypted_e9a9f2e35937_key -iv $encrypted_e9a9f2e35937_iv -in .deploy_key.enc -out .deploy_key -d"
+  - ./.travis_key.sh e9a9f2e35937
   - 'echo ''gem: --no-document'' > ~/.gemrc'
 
 script: bundle exec rake travis

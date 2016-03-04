@@ -31,8 +31,10 @@ squadrons:
     region: Americas
     timezone: [ '00:00', '08:00' ]
     recruiters:
-      - name: Audrey Koshka
-        user: 7048-audrey-koshka
+      - name: Lucy Dearheart
+        user: 26507-lucydearheart
+      - name: Ned Echerie
+        user: 19846-ned-echerie
 
   echo:
     open: true

@@ -120,13 +120,12 @@ If you’re interested, contact {{ site.data.text.ceo.name }}.
 
 ### Do you hold space or intend to?
 
-Agony does not artificially limit what we do.
-
-While Agony has held Sov in the past,
-the current sovereignty mechanics and landscape doesn’t mesh well
-with a small-gang PVP Alliance that doesn’t want permanent blues.
-
-We do not currently hold space, nor do we plan to in the near future.
+Agony is currently based in the centre of Querious and holds a 
+handful of systems as its base of operations. We are not generally 
+interested in large scale Sov warfare but we place no articifical 
+limits on what we do in search of good content. Querious is a highly 
+active region for small gang combat and we've been lucky enough to 
+find a home right in its centre.
 
 ### Can anyone join Agony? Is it by invite only? By skill points?
 

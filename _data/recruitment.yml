@@ -37,16 +37,10 @@ squadrons:
         user: 19846-ned-echerie
 
   echo:
-    open: true
+    open: false
     region: Australian &amp; Pacific
     timezone: [ '08:00', '16:00' ]
     recruiters:
-      - name: Silivay
-        user: 3435-silivay
-      - name: Yamir Ke'Shark
-        user: 6106-yamir-keshark
-      - name: Fitch
-        user: 6694-fitch
 
 text:
   recruitment: recruitment

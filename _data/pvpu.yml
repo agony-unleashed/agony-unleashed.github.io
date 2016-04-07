@@ -1,12 +1,12 @@
 ---
 course:
   display: true
-  scheduled: false
+  scheduled: true
   icon: fi-target
-  name: PvP-Basic
-  date: 2016-03-19 20:00:00 UTC
-  topic: 25672-announced-pvp-basic-19th-march-2000
-  form: 1lPO7Lfoh12V94jshf_CCMjj6fkRCrZrb16ZWVLgMvP4
+  name: PvP-BASIC
+  date: 2016-04-16 19:00:00 UTC
+  topic: 25776-announced-pvp-basic-16th-april-1900
+  form: 17XL0S8eaSifkGUSg_quXNnyAtquIKouwG_ypgroQDXA
 
 text:
   header: PvP-U course

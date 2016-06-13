@@ -32,7 +32,7 @@ in our [Agony Empire History] article.
 
 ### Where is Agony’s HQ?
 
-Agony currently bases out of Thera.
+Agony currently bases out of Pure Blind.
 
 ### Who is the CEO of Agony?
 

@@ -38,7 +38,7 @@ or contact one of our recruiters.
 {% include thumbnail.html src="hyena.png" type="thumb" class="float" %}
 
 Agony Unleashed is a PVP corp, specializing in small gang combat.
-We are currently deployed to Thera.
+We are currently deployed to Pure Blind.
 
 Agony was formed in 2006 and is a single-corp alliance
 with a strong cultural identity focused on PVP self-improvement,

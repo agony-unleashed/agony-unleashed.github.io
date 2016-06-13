@@ -45,23 +45,18 @@ with a strong cultural identity focused on PVP self-improvement,
 both for the pilots in Agony as well as thousands of students that
 have been trained via the PVP University that Agony runs as a side project.
 
-Agony has lived in almost every NPC Nullsec region
-from Venal to Great Wildlands, has briefly dabbled at Sov-holding in Providence
-(while it was a Fight Club back in 2010), and tried a bit of Faction Warfare.
-More recently we have lived in Catch as part of the Hero Coalition,
-which gave us access to some large fights
-in addition to our staple small-gang combat.
+Agony has lived in almost every NPC nullsec region
+from Venal to Great Wildlands, participated in Faction Warfare,
+lived in Catch as part of the Hero Coalition, roamed out of Thera
+taking wormholes to different regions every day,
+and more recently, joined the Querious Fight Club.
 
-We currently live in one of the four NPC stations in Thera.
-Due to the constantly changing exits Thera provides,
-we have the ability to raid a new area of space every day (usually Nullsec).
-This provides us with huge variety of targets:
-from large bloc fleets to highly skilled small gangs,
-and from solo roamers to gate camps.
-As usual, we’re running frequent small gang roams through whatever region
-takes our fancy on a given day.
-There are no mandatory ops to attend,
-but there’s almost always something going on!
+We currently hold few systems right in the center of Pure Blind
+as part of a new 'Fight Club' with Pandemic Horde, Brave, and a few others.
+We aren't blue to anyone and are continually involved in small gang PVP
+across the region.
+Our home system is an ideal point at the crossroads of the region where gangs
+of all sizes often roam which provides constant PVP opportunities.
 
 ### The Agony Philosophy
 

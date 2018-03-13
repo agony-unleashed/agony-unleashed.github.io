@@ -1,5 +1,5 @@
 ---
-open: true
+open: false
 icons:
   recruitment: fi-torsos-all
   apply: fi-target-two
@@ -13,21 +13,15 @@ faq_page: Joining_Agony
 
 squadrons:
   alpha:
-    open: true
+    open: false
     region: Europe
     timezone: [ '16:00', '00:00' ]
     recruiters:
-      - name: Itkovian Beddict
-        user: 6283-itkovian-beddict
-      - name: Dybbuch
-        user: 6857-dybbuch
       - name: Silas
         user: 2268-silas
-      - name: SchlummOr
-        user: 23110-chlummor
 
   charlie:
-    open: true
+    open: false
     region: Americas
     timezone: [ '00:00', '08:00' ]
     recruiters:

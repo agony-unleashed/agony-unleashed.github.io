@@ -17,18 +17,18 @@ squadrons:
     region: Europe
     timezone: [ '16:00', '00:00' ]
     recruiters:
-      - name: Silas
-        user: 2268-silas
+#      - name: Silas
+#        user: 2268-silas
 
   charlie:
     open: false
     region: Americas
     timezone: [ '00:00', '08:00' ]
     recruiters:
-      - name: Lucy Dearheart
-        user: 26507-lucydearheart
-      - name: Ned Echerie
-        user: 19846-ned-echerie
+#      - name: Lucy Dearheart
+#        user: 26507-lucydearheart
+#      - name: Ned Echerie
+#        user: 19846-ned-echerie
 
   echo:
     open: false

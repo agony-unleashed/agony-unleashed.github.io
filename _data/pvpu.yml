@@ -1,6 +1,6 @@
 ---
 course:
-  display: true
+  display: false
   scheduled: false
   icon: fi-target
   name: PvP-BASIC

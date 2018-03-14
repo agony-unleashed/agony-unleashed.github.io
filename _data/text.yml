@@ -2,10 +2,10 @@
 not_found: The entered coordinates returned 404.
 
 return_button:
-  link: return to know space
+  link: return to known space
   icon: fi-star
 
 ceo:
-  name: Itkovian Beddict
-  nick: Itko
-  user: 6283-itkovian-beddict
+  name: Kenda deLagrange
+  nick: Kenda
+  user: 5122-kenda-delagrange
